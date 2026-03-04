@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor_principal: rgb(59, 104, 182);
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    background-color: var(--cor_principal);
+}
+
+.form{
+    width: 35vw;
+    background-color: white;
+    padding: 2em;
+    border-left: 6px solid rgba(4, 32, 81, 0.9);
+
+}
+
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.login_cadastro{
+    color: var(--cor_principal);
+    font-weight: 300;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.form_label{
+    padding: .8em 0;
+    color: rgb(97, 95, 95);
+    font-weight: 400;
+    font-size: .9em;
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+
+.input_form{
+    border: none;
+    border-bottom: 1px solid var(--cor_principal);
+    padding: .8em;
+    outline: none;
+    transition: transform 0.1s linear;
+}
+
+.input_form:focus{
+    margin: auto;
+    border: none;
+    border-bottom: 2px solid var(--cor_principal);
+    transform: scale(1.05);
+    width: 95%;
+}
+
+.link_cadastro{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2em 0.2em;
+
+}
+
+.link_login{
+    display: flex;
+    text-align: center;
+    gap: 1em;
+    padding: 2em 0.2em;
+    margin-top: 5em;
+    
+}
+
+.faca_login{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.btn{
+    background-color: var(--cor_principal);
+    padding: .8em 1em;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.cadastre-se{
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 400;
+    /* background-color: pink; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.cadastre-se a{
+    text-decoration: none;
+    color: var(--cor_principal);
+    letter-spacing: 1px;
+}
+
+
+.esqueci_senha{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
